@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F6F7FBD4420DA23155356C6 /* Pods_Inl2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CA9230725A671F1A600F79 /* Pods_Inl2.framework */; };
 		AD22CD581F6BD5D8004D34C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD571F6BD5D8004D34C9 /* AppDelegate.swift */; };
 		AD22CD5A1F6BD5D8004D34C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD591F6BD5D8004D34C9 /* ViewController.swift */; };
 		AD22CD5D1F6BD5D8004D34C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD22CD5B1F6BD5D8004D34C9 /* Main.storyboard */; };
 		AD22CD5F1F6BD5D8004D34C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD22CD5E1F6BD5D8004D34C9 /* Assets.xcassets */; };
 		AD22CD621F6BD5D8004D34C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD22CD601F6BD5D8004D34C9 /* LaunchScreen.storyboard */; };
+		AD22CD6A1F6BF825004D34C9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD691F6BF825004D34C9 /* Category.swift */; };
+		AD22CD6C1F6BF838004D34C9 /* Recept.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD6B1F6BF838004D34C9 /* Recept.swift */; };
+		AD22CD6E1F6BFD16004D34C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD22CD6D1F6BFD16004D34C9 /* GoogleService-Info.plist */; };
+		AD22CD701F6D56F8004D34C9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD6F1F6D56F8004D34C9 /* CollectionViewCell.swift */; };
+		AD22CD721F6D77C4004D34C9 /* AddNewCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD711F6D77C4004D34C9 /* AddNewCategoryTableViewController.swift */; };
+		AD22CD761F6EDA9F004D34C9 /* CategoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD751F6EDA9F004D34C9 /* CategoryDetailViewController.swift */; };
+		AD22CD781F6EFD12004D34C9 /* ReceptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD771F6EFD12004D34C9 /* ReceptTableViewCell.swift */; };
+		AD22CD7A1F6F98C5004D34C9 /* AddNewReceptTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD791F6F98C5004D34C9 /* AddNewReceptTableViewController.swift */; };
+		AD22CD7C1F6FAF32004D34C9 /* ShowReceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD7B1F6FAF32004D34C9 /* ShowReceptViewController.swift */; };
+		AD22CD801F6FDBEA004D34C9 /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD7F1F6FDBEA004D34C9 /* IngredientTableViewCell.swift */; };
+		AD22CD821F6FEDB1004D34C9 /* AddIngredientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD811F6FEDB1004D34C9 /* AddIngredientsTableViewController.swift */; };
+		AD22CD841F711E69004D34C9 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD831F711E69004D34C9 /* DatabaseManager.swift */; };
+		AD22CD861F7270BB004D34C9 /* ModalViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22CD851F7270BB004D34C9 /* ModalViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12CA9230725A671F1A600F79 /* Pods_Inl2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inl2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		836CD63C501DF32A9E1925B9 /* Pods-Inl2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inl2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inl2/Pods-Inl2.release.xcconfig"; sourceTree = "<group>"; };
 		AD22CD541F6BD5D8004D34C9 /* Inl2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inl2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD22CD571F6BD5D8004D34C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD22CD591F6BD5D8004D34C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,20 @@
 		AD22CD5E1F6BD5D8004D34C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD22CD611F6BD5D8004D34C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD22CD631F6BD5D8004D34C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD22CD691F6BF825004D34C9 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AD22CD6B1F6BF838004D34C9 /* Recept.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recept.swift; sourceTree = "<group>"; };
+		AD22CD6D1F6BFD16004D34C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD22CD6F1F6D56F8004D34C9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AD22CD711F6D77C4004D34C9 /* AddNewCategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewCategoryTableViewController.swift; sourceTree = "<group>"; };
+		AD22CD751F6EDA9F004D34C9 /* CategoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailViewController.swift; sourceTree = "<group>"; };
+		AD22CD771F6EFD12004D34C9 /* ReceptTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceptTableViewCell.swift; sourceTree = "<group>"; };
+		AD22CD791F6F98C5004D34C9 /* AddNewReceptTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewReceptTableViewController.swift; sourceTree = "<group>"; };
+		AD22CD7B1F6FAF32004D34C9 /* ShowReceptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowReceptViewController.swift; sourceTree = "<group>"; };
+		AD22CD7F1F6FDBEA004D34C9 /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
+		AD22CD811F6FEDB1004D34C9 /* AddIngredientsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIngredientsTableViewController.swift; sourceTree = "<group>"; };
+		AD22CD831F711E69004D34C9 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		AD22CD851F7270BB004D34C9 /* ModalViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewControllerDelegate.swift; sourceTree = "<group>"; };
+		CC3B5AF2E89C21CAC0E253E9 /* Pods-Inl2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inl2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inl2/Pods-Inl2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F6F7FBD4420DA23155356C6 /* Pods_Inl2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06F2CDFD975D3F00434CC4D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12CA9230725A671F1A600F79 /* Pods_Inl2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		938282AD56369A50DE7130FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC3B5AF2E89C21CAC0E253E9 /* Pods-Inl2.debug.xcconfig */,
+				836CD63C501DF32A9E1925B9 /* Pods-Inl2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD22CD4B1F6BD5D8004D34C9 = {
 			isa = PBXGroup;
 			children = (
 				AD22CD561F6BD5D8004D34C9 /* Inl2 */,
 				AD22CD551F6BD5D8004D34C9 /* Products */,
+				938282AD56369A50DE7130FD /* Pods */,
+				06F2CDFD975D3F00434CC4D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +106,22 @@
 			children = (
 				AD22CD571F6BD5D8004D34C9 /* AppDelegate.swift */,
 				AD22CD591F6BD5D8004D34C9 /* ViewController.swift */,
+				AD22CD751F6EDA9F004D34C9 /* CategoryDetailViewController.swift */,
+				AD22CD791F6F98C5004D34C9 /* AddNewReceptTableViewController.swift */,
+				AD22CD831F711E69004D34C9 /* DatabaseManager.swift */,
+				AD22CD711F6D77C4004D34C9 /* AddNewCategoryTableViewController.swift */,
+				AD22CD691F6BF825004D34C9 /* Category.swift */,
+				AD22CD6B1F6BF838004D34C9 /* Recept.swift */,
 				AD22CD5B1F6BD5D8004D34C9 /* Main.storyboard */,
+				AD22CD7F1F6FDBEA004D34C9 /* IngredientTableViewCell.swift */,
+				AD22CD851F7270BB004D34C9 /* ModalViewControllerDelegate.swift */,
+				AD22CD7B1F6FAF32004D34C9 /* ShowReceptViewController.swift */,
+				AD22CD811F6FEDB1004D34C9 /* AddIngredientsTableViewController.swift */,
+				AD22CD6F1F6D56F8004D34C9 /* CollectionViewCell.swift */,
+				AD22CD771F6EFD12004D34C9 /* ReceptTableViewCell.swift */,
 				AD22CD5E1F6BD5D8004D34C9 /* Assets.xcassets */,
 				AD22CD601F6BD5D8004D34C9 /* LaunchScreen.storyboard */,
+				AD22CD6D1F6BFD16004D34C9 /* GoogleService-Info.plist */,
 				AD22CD631F6BD5D8004D34C9 /* Info.plist */,
 			);
 			path = Inl2;
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD22CD661F6BD5D8004D34C9 /* Build configuration list for PBXNativeTarget "Inl2" */;
 			buildPhases = (
+				83DA04D1DD3AA9001936F3DB /* [CP] Check Pods Manifest.lock */,
 				AD22CD501F6BD5D8004D34C9 /* Sources */,
 				AD22CD511F6BD5D8004D34C9 /* Frameworks */,
 				AD22CD521F6BD5D8004D34C9 /* Resources */,
+				13B82A95C05A7982C2A2CC78 /* [CP] Embed Pods Frameworks */,
+				5C5AF562AC62D5B62D22FB3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD22CD6E1F6BFD16004D34C9 /* GoogleService-Info.plist in Resources */,
 				AD22CD621F6BD5D8004D34C9 /* LaunchScreen.storyboard in Resources */,
 				AD22CD5F1F6BD5D8004D34C9 /* Assets.xcassets in Resources */,
 				AD22CD5D1F6BD5D8004D34C9 /* Main.storyboard in Resources */,
@@ -132,13 +199,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13B82A95C05A7982C2A2CC78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Inl2/Pods-Inl2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inl2/Pods-Inl2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C5AF562AC62D5B62D22FB3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inl2/Pods-Inl2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83DA04D1DD3AA9001936F3DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inl2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD22CD501F6BD5D8004D34C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD22CD701F6D56F8004D34C9 /* CollectionViewCell.swift in Sources */,
 				AD22CD5A1F6BD5D8004D34C9 /* ViewController.swift in Sources */,
+				AD22CD841F711E69004D34C9 /* DatabaseManager.swift in Sources */,
+				AD22CD861F7270BB004D34C9 /* ModalViewControllerDelegate.swift in Sources */,
+				AD22CD7C1F6FAF32004D34C9 /* ShowReceptViewController.swift in Sources */,
+				AD22CD7A1F6F98C5004D34C9 /* AddNewReceptTableViewController.swift in Sources */,
+				AD22CD781F6EFD12004D34C9 /* ReceptTableViewCell.swift in Sources */,
+				AD22CD721F6D77C4004D34C9 /* AddNewCategoryTableViewController.swift in Sources */,
+				AD22CD821F6FEDB1004D34C9 /* AddIngredientsTableViewController.swift in Sources */,
 				AD22CD581F6BD5D8004D34C9 /* AppDelegate.swift in Sources */,
+				AD22CD6C1F6BF838004D34C9 /* Recept.swift in Sources */,
+				AD22CD6A1F6BF825004D34C9 /* Category.swift in Sources */,
+				AD22CD761F6EDA9F004D34C9 /* CategoryDetailViewController.swift in Sources */,
+				AD22CD801F6FDBEA004D34C9 /* IngredientTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +398,7 @@
 		};
 		AD22CD671F6BD5D8004D34C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3B5AF2E89C21CAC0E253E9 /* Pods-Inl2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2DQMEK652W;
@@ -274,6 +412,7 @@
 		};
 		AD22CD681F6BD5D8004D34C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836CD63C501DF32A9E1925B9 /* Pods-Inl2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2DQMEK652W;
@@ -304,6 +443,7 @@
 				AD22CD681F6BD5D8004D34C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
